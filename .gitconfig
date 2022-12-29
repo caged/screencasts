@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[user]
+	email = encytemedia@gmail.com
+	name = Justin Palmer
+# Please adapt and uncomment the following lines:
+#	name = Justin Palmer
+#	email = encytemedia@gmail.com
+[push]
+	default = current
+	autoSetupRemote = true
+[credential]
+	helper = osxkeychain
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
